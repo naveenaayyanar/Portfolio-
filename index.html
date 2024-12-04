@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+      <nav id="desktop-nav">
+          <div class="logo"><b>Portfolio</b></div>
+          <div>
+              <ul class="nav-links">
+                  <li><a href="#about">About</a></li>
+             
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#cert">Certification</a></li>                 
+                 
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </div>
+      </nav>
+      <nav id="hamburger-nav">
+          <div class="logo"><H1 font style="font-size: 30px;"><MARQUEE>Portfolio</MARQUEE></H1></div>
+       
+          <div class="hamburger-menu">
+
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+              <div class="menu-links">
+                  <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                  
+                  <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                  <li><a href="#cert" onclick="toggleMenu()">Certification</a></li>
+                  
+                  <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+              </div>
+             
+          </div>
+      </nav>
+      <section id="profile">
+          <div class="section__pic-container">
+              <img src=".\assetS\SIDE.jpg" alt="Naveena profile picture" height="600px" weight="500px">
+          </div>
+          <div class="section__text"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              <p class="section__text__p1">Hello, I'm</p>
+              <h1 class="title">Naveena</h1>
+              <p class="section__text__p2">CYBERSECURITY</p>
+              <div class="btn-container">
+                  <button class="btn btn-color-2"
+                          onclick="window.open('./assets/updated resume26.10.24navee.docx')">
+                      Download Resume
+                  </button>
+
+              </div>
+              <div id="socials-container">
+                  <img src="./assets/linkedin.png"
+                       alt="My LinkedIn profile"
+                       class="icon"
+                       onclick="location.href='https://www.linkedin.com/in/naveena-a-811b63281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'" />
+
+              </div> 
+            
+          </div>
+      </section>
+      <br>
+     
+      <section id="about">
+          <p class="section__text__p1">Get To Know More</p><br><br>
+          <h1 class="title">About Me</h1>
+          
+          <div class="section-container">
+              <div class="section__pic-container">
+                  <img src="./assets/RENAME.jpg" width="450px" height="500"
+                       alt="Profile picture"
+                       class="about-pic" />
+              </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              <div class="about-details-container">
+                  <div class="about-containers">
+                      <div class="details-container">
+                          <img src="./assets/experience.png"
+                               alt="Experience icon"
+                               class="icon" /><br>
+                          <h3>Experience</h3><br>
+                          <p style="font-size: x-large;"><br />I consider myself a responsible and orderly person. I’m looking forward for my first work experience in cyber security.  
+                        </p>
+                      </div>
+                      <div class="details-container">
+                          <img src="./assets/education.png"
+                               alt="Education icon"
+                               class="icon" /><br>
+                          <h3>Education</h3><br>
+                          <p style="font-size: x-large;">BSC.Digital and Cyber Forensic Science</p>
+                      </div>
+
+                  </div>
+                  <div class="text-container"><br><br><br>
+                      <p style="font-size: x-large;">Enthusiastic learner with a passion for continuous growth.Actively engaged in diverse learning opportunities and challendes to expand my knowledge andv skills.Known for my commitment,energy,and dedication to achieving both personal and team success.
+ 
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+      </section>
+      
+      <section id="skills"><br><br><br>
+          <p class="section__text__p1">Explore My</p><br><br><br><br><br>
+          <h1 class="title">Skills</h1><br><br><br>
+                  <div class="details-container"><br><br><br><br>
+                      <h2 class="experience-sub-title">Tools</h2>
+                      <div class>
+                         
+                        <br><br>
+                              <div>
+                                 <h3>MALTEGO</h3></p>
+                                  <p>Experienced</p>
+                              </div>
+                              <br><br>
+                            
+                              <div>
+                                  <h3>PYTHON</h3>
+                                  
+                              </div>
+                              <br><br>
+                              <div>
+                                  <h3>LINUX,WINDOW</h3>
+                                 
+                              </div><br><br><br>
+                       
+                             
+                              <div>
+                                  <h3>NETWORKING[IoT]</h3>
+                                  
+                              </div><br><br>
+                         
+                             
+                              <div>
+                                  <h3>Git</h3>
+                                  <p>BASICS</p>
+                              </div><br><br>
+                        
+                              <div>
+                                  <h3>C,C++,HTML,CSS</h3>
+                                  
+                              </div><br><br><br><br><br><br><br><br><br><br>
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </section>
+      <section id="cert">
+          <p class="section__text__p1">Explore My</p><br><br><br><br>
+          <h1 class="title">Certifications</h1><br><br>
+          <div class="experience-details-container">
+              <div class="about-containers">
+                  <div class="details-container">
+                      <h2 class="experience-sub-title">
+                    Ethical Hacking Essentials[EHE]
+                      </h2>
+                      <div class="article-container">
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3> on EC council </h3>
+
+                              </div>
+                          </article>
+
+
+
+                      </div><br><br>
+                  </div>
+                  <div class="details-container">
+                      <h2 class="experience-sub-title">SQL Injection Attacks</h2>
+                      <div class="article-container">
+
+
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>
+                                    on EC council
+                                  </h3>
+
+                              </div>
+                          </article>
+                      </div>
+                  </div>
+
+                  <div class="details-container">
+                      <h2 class="experience-sub-title"> Ethical Hacker </h2>
+                      <div class="article-container">
+
+
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>
+                                      CISCO
+                                  </h3>
+
+                              </div>
+                          </article>
+                      </div>
+                  </div>
+                  <div class="details-container">
+                    <h2 class="experience-sub-title"> Monitor Training and Cyber Crime Investigation </h2>
+                    <div class="article-container">
+
+
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Experience icon"
+                                 class="icon" />
+                            <div>
+                                <h3>
+                                    on Maltego
+                                </h3>
+
+                            </div>
+                        </article>
+                    </div>
+                </div><div class="details-container">
+                    <h2 class="experience-sub-title">  Decode your Target (partical workshop) </h2>
+                    <div class="article-container">
+
+
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Experience icon"
+                                 class="icon" />
+                            <div>
+                                <h3>
+                                    on EthicalByte
+                                </h3>
+
+                            </div>
+                        </article>
+                    </div>
+                </div><div class="details-container">
+                    <h2 class="experience-sub-title"> Tools of trade : Linux and SQL </h2>
+                    <div class="article-container">
+
+
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Experience icon"
+                                 class="icon" />
+                            <div>
+                                <h3>
+                                    on LinkedIn
+                                </h3>
+
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title"> 	Hacking IoT devices </h2>
+                    <div class="article-container">
+
+
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Experience icon"
+                                 class="icon" />
+                            <div>
+                                <h3>
+                                    on LinkedIn
+                                </h3>
+
+                            </div>
+                        </article>
+                    </div>
+                </div> <div class="details-container">
+                    <h2 class="experience-sub-title">Fullstack web development </h2>
+                    <div class="article-container">
+
+
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Experience icon"
+                                 class="icon" />
+                            <div>
+                                <h3>
+                                    on LinkedIn
+                                </h3>
+
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+
+
+
+
+              </div>
+          </div>
+        
+
+      
+      <section id="contact">
+          <p class="section__text__p1">Get in Touch</p><br><br>
+          <h1 class="title">Contact Me</h1><br><br>
+          <div class="contact-info-upper-container">
+              <div class="contact-info-container">
+                  <img src="./assets/email.png"
+                       alt="Email icon"
+                       class="icon contact-icon email-icon" />
+                  <p><a href="mailto:naveenaayyanar845@gmail.com">naveenaayyanar845@gmail.com</a></p>
+              </div>
+              <div class="contact-info-container">
+                  <img src="./assets/linkedin.png"
+                       alt="LinkedIn icon"
+                       class="icon contact-icon" />
+                  <p><a href="https://www.linkedin.com/in/naveena-a-811b63281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></p>
+                  
+          <div class="contact-info-container">
+            <img src="./assets/github.png"
+                 alt="Github icon"
+                 class="icon contact-icon" />
+            <p><a href="https://github.com/naveenaayyanar">Github</a></p>
+        </div>
+    </div>
+      </section>
+      <footer>
+          <nav>
+              <div class="nav-links-container">
+                  <ul class="nav-links">
+                      <li><a href="#about">About</a></li> 
+                      <li><a href="#skills">Skills</a></li>
+                      <li><a href="#cert">Certification</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                  </ul>
+              </div>
+          </nav>
+          <p>Copyright &#169; 2024 naveena. All Rights Reserved.</p>
+      </footer>
+      <script src="script.js"></script>
+  </body>
+</html>
